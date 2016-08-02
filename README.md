@@ -1,6 +1,6 @@
 # Docker Node
 
-Using docker for node, express app.
+Using docker for node, express app, mongodb.
 
 ## ENV
 
@@ -18,6 +18,10 @@ $ docker build -t dante/node:0.1 .
 
 ```Bash
 $ docker run -i -t -p 8080:8080 dante/node:0.1
+```
+
+```Bash
+$ docker run -i -t -p 8080 dante/node:0.1 /bin/bash
 ```
 
 ### Run in background
